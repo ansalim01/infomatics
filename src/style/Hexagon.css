@@ -4,11 +4,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* transform: rotate(-150deg); */
 }
 .hexagon {
-  /* width: calc(var(--hex-side) * 1.732);
-  height: var(--hex-side); */
   height: calc(var(--hex-side) * 1.732);
   width: var(--hex-side);
   background-color: var(--white);

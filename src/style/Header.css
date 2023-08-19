@@ -1,0 +1,42 @@
+.header__conteiner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: aliceblue;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+@media (max-width: 820px) {
+  .header__conteiner {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+.header-logo {
+  text-transform: uppercase;
+}
+.header__ul {
+  display: flex;
+}
+.header__ul :not(:last-child) {
+  margin-right: 50px;
+}
+.header-btn {
+  display: flex;
+  align-items: center;
+}
+.header-btn :not(:last-child) {
+  margin-right: 30px;
+}
+.header-btn__exit {
+  cursor: pointer;
+}
+.header-btn__burger {
+  cursor: pointer;
+}
